@@ -1,0 +1,31 @@
+{
+    "name": "subhra/gupshup",
+    "type": "package",
+    "description": "A Laravel package that integrates the Gupshup API",
+    "require": {
+        "php": "^8.0",
+        "illuminate/support": "^8.0|^9.0|^10.0",
+        "guzzlehttp/guzzle": "^7.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "Subhra\\Gupshup\\": "src/"
+        }
+    },
+    "homepage": "https://github.com/subhra44/gupshup",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Subhra Jyoti Bhuyan",
+            "email": "subhra@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Subhra\\Gupshup\\Providers\\GupshupServiceProvider"
+            ]
+        }
+    }
+}
